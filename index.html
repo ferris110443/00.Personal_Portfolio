@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Responsive Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"> Portfolio </a>
+        <div class="toggle" onclick=menuToggle()></div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Works</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello , I am <br><span> Yu Pei Lin</span></h2>
+            <a href="#about" class="btn"> About me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About me</h2>
+        </div> 
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Hello , I am Yu Pei Lin </h3>
+                <p>
+                    I am a senior process engineer specializing in lithography with over 3.5 years of valuable experience in the semiconductor manufacturing industry. 
+                    I have been a part of TSMC since obtaining my master's degree. Notably, I have been involved in both N12/N16 fab high volume manufacturing (HVM) and the advancement of N3 technology fab ramping to HVM. 
+                    My role has allowed me to gain extensive expertise in optimizing lithography processes, enhancing yields, and leveraging productivity-enhancing Continuous Improvement Programs (CIP).                        
+                </p>
+                <br><br>
+                <p>
+                    Recently, I embarked on a new journey to learn web development programming as a crucial component of my career development plan. 
+                    I have acquired proficiency in a range of technologies, including HTML, CSS, JavaScript, Node.js, Express, SQL, and NoSQL. My aim is to transition into a software engineering role as soon as possible                </p>
+                </p>
+                <p>
+                    <a class='btn' href="https://www.cakeresume.com/s--usxHFqm7dIayjaY_zfIb0g--/yplin-168b67">My Resume</a>
+                </p>
+            </div>
+            <div class="imgBx w50">
+                <img src="./images/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Semiconductor Industry Works </h2>
+            <p>Here are the semiconductor industry projects I have been involved in over the past few years.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/icon5.png" alt="">
+                <h2>Scanner Productivity CIP</h2>
+                <br>
+                <p>Evaluate the optimization of scanner routing paths in the 193-nm NXT 1470 tool, resulting in a gain of 2.6% WPH <b> - (Factory Director Award)</b></p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon5.png" alt="">
+                <h2>Scanner Productivity CIP</h2>
+                <br>
+                <p>Reduction of edge exposure for specific layers to improve productivity CIP in the 193-nm NXT 1470 tool</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon5.png" alt="">
+                <h2>Reticles Material CIP</h2>
+                <br>
+                <p>Investigate the use of a new blank for reticles to reduce electrostatic discharge defects.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon2.png" alt="">
+                <h2>Yield Improvement Projects</h2>
+                <br>
+                <p>Conducted experiments using design of experiments to optimize process conditions for wafer-edge defocus issues, resulting in a 0.7% gain in yield.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon2.png" alt="">
+                <h2>Automated Workflow System</h2>
+                <br>
+                <p>Implement a new automated photo PI-run workflow system for tape-out to streamline the process.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon1.png" alt="">
+                <h2>Alignment Defense System</h2>
+                <br>
+                <p>Mask-to-wafer Critical Dimension alignment defense system. Increasing 22% coverage rate in N03 Tech. Conduct analysis in similarity and correlation from mask to wafer CD uniformity.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My web development projects</h2>
+            <p>Here are my web development projects and practices in web development. </p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                
+                <a href="https://ferris110443.github.io/01.RWD_Practice_Restaurant_Intro/">
+                    <p>RWD website </p>
+                    <img src="./images/product1.jpg" alt="">
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ferris110443.github.io/02.Simon_Game_Practice/">
+                    <p>Simon game</p>
+                    <img src="./images/product2.jpg" alt="">
+                </a>
+                
+            </div>
+            <div class="workBx">
+                
+                <a href="https://ferris110443.github.io/03.ToDoList_practice/">
+                    <p>TodoList (HTML / CSS / JS)</p>
+                    <img src="./images/product3.jpg" alt="">
+                </a>
+                
+            </div>
+            <div class="workBx">
+                
+                <a href="https://github.com/ferris110443/04.ToDoList_practice_MongodDB">
+                    <p>TodoList (Node.js / Express / MongoDB)</p>
+                    <img src="./images/product4.jpg" alt="">
+                </a>
+                
+            </div>
+            <div>
+                <a class='btn' href="https://github.com/ferris110443/">View More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class='contact' id='contact'>
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            
+        </div>
+        <div class="content ">
+
+            <div class="contactInfo">
+                <div class="contactInfoBx">
+                <h3>Contact Information</h3>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="text">
+                            <h3> Address</h3>
+                            <p>Taichung</p>
+                        </div>    
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3></i> Phone</h3>
+                            <p>0922562101</p>
+                        </div>    
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3> E-mail </h3>
+                            <p>ferris110443@gmail.com</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <h3>Message Me</h3>
+                <form action="">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="message " id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/0159d9054f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
